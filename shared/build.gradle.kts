@@ -10,7 +10,7 @@ plugins {
     id("com.vanniktech.maven.publish") version "0.30.0"
 }
 
-group = "io.github.AlderFurtado"
+group = "io.github.alderfurtado"
 version = "1.0.0"
 
 kotlin {
@@ -51,7 +51,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.AlderFurtado"
+    namespace = "io.github.alderfurtado"
     compileSdk = 35
     defaultConfig {
         minSdk = 24
@@ -64,7 +64,7 @@ android {
 
 mavenPublishing {
     coordinates(
-        groupId = "io.github.AlderFurtado",
+        groupId = "io.github.alderfurtado",
         artifactId = "cepkmp",
         version = "1.0.0"
     )
