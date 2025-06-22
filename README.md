@@ -1,4 +1,8 @@
 # CepKMP
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version%20-1.0.0-blue)](https://github.com/AlderFurtado/cep-kmp/releases/tag/1.0.0)
+[![KMP](https://img.shields.io/badge/Kotlin%20-Multiplatform-purple)](https://github.com/AlderFurtado/cep-kmp/releases/tag/1.0.0)
+
 
 **CepKMP** is an asynchronous Kotlin Multiplatform library that retrieves address information based on a Brazilian postal code (CEP).
 
@@ -26,12 +30,12 @@ Then, use the library in your code:
 import com.cepkmp.cepkmp.api.AddressResponse
 import com.cepkmp.cepkmp.CepKMP
 
-suspend fun getAddress(): AddressResponse {
-    return CepKMP().getAddress("01310-000")
+suspend fun getAddress(postalCode: String): AddressResponse {
+    return CepKMP().getAddress(postalCode)
 }
 ```
 
-Address and CepError
+#### AddressResponse
 The response will return either an Address object (on success) or a CepError (on failure).
 
 ### Address Model
