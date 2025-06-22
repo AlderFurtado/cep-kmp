@@ -1,7 +1,8 @@
 # CepKMP
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Maven Central](https://img.shields.io/badge/Maven-Central-yellow.svg)](https://central.sonatype.com/search?q=cepkmp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version%20-1.0.0-blue)](https://github.com/AlderFurtado/cep-kmp/releases/tag/1.0.0)
-[![KMP](https://img.shields.io/badge/Kotlin%20-Multiplatform-purple)](https://github.com/AlderFurtado/cep-kmp/releases/tag/1.0.0)
+[![KMP](https://img.shields.io/badge/Kotlin%20-Multiplatform-purple)](https://kotlinlang.org/docs/multiplatform.html)
 
 
 **CepKMP** is an asynchronous Kotlin Multiplatform library that retrieves address information based on a Brazilian postal code (CEP).
